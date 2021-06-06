@@ -1,0 +1,16 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+.hero {
+  height: 30vh;
+  width: 100%;
+  background: center/100% url("https://assets.codepen.io/6060109/window.jpg");
+}
+.hero > h4 {
+  position: absolute;
+  bottom: 90%;
+  left: 50%; 
+  transform: translateX(-50%) translateY(90%);
+}
