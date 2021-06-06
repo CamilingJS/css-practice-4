@@ -1,23 +1,23 @@
 * {
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
   height: 30vh;
   width: 100%;
-  background: center/100% url("https://assets.codepen.io/6060109/window.jpg");
+  background: center/100% url('https://assets.codepen.io/6060109/window.jpg');
 }
 .hero > h4 {
   position: absolute;
   bottom: 90%;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%) translateY(90%);
 }
 
 .section {
   text-align: center;
-  margin: 50px; 
+  margin: 50px;
 }
 .box-ctr {
   display: flex;
@@ -31,13 +31,13 @@
   border: 1px solid black;
 }
 .box-ctr > .box:first-child {
-  background-color:red;
+  background-color: red;
 }
 .box-ctr > .box:nth-child(2) {
-  background-color:green;
+  background-color: green;
 }
 .box-ctr > .box:last-child {
-  background-color:blue;
+  background-color: blue;
 }
 .box-ctr-1 {
   display: flex;
@@ -47,11 +47,11 @@
 .box-ctr-2 {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end ;
+  align-items: flex-end;
 }
 .box-ctr-3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end ;
+  align-items: flex-end;
 }
